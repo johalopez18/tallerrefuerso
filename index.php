@@ -9,48 +9,50 @@
  </head>
  <body>
         <header> 
-          <h1>TIENDA.COM
+          <h1>  MI TIENDA.COM
           </h1>
         </header>
 
-        <main class="bg-danger">
+        <main class="danger">
             <div class="container">
                 <div class="row justify-content-center">
+               
                     <div class="col-4">
-                        <form action="">
+                        <form action="agregardatos.php" method="POST" > 
 
                         <div class="form-group">
                             <label for="nombre">NOMBRE</label>
-                            <input type="text" class="form-control" id="nombre">
+                            <input type="text" class="form-control" id="nombre" name="nombre">
                         </div>
 
                         <div class="form-group">
                             <label for="cedula">CEDULA</label>
-                            <input type="number" class="form-control" id="cedula">
+                            <input type="number" class="form-control" id="cedula" name="cedula">
                         </div>
 
                         <div class="form-group">
                             <label for="apellido">APELLIDO</label>
-                            <input type="text" class="form-control" id="apellido">
+                            <input type="text" class="form-control" id="apellido" name="apellidos">
                         </div>
 
                         <div class="form-group">
                             <label for="telefono">TELEFONO</label>
-                            <input type="number" class="form-control" id="telefono">
+                            <input type="number" class="form-control" id="telefono" name="telefono">
                         </div>
 
                         <div class="form-group">
                             <label for="edad">EDAD</label>
-                            <input type="number" class="form-control" id="edad">
+                            <input type="number" class="form-control" id="edad" name="edad">
                         </div>
 
                         <div class="form-group">
                             <label for="direccion">DIRECCION</label>
-                            <input type="text" class="form-control" id="direccion">
+                            <input type="text" class="form-control" id="direccion" name="direccion">
                         </div>
-                        
+
+                       
             
-                        <button type="submit" class="btn btn-primary btn-block">registrar</button>
+                        <button type="submit" class="btn btn-primary btn-block" name="botonenviada">registrar</button>
 
 
 
